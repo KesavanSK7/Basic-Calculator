@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+}
+h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+h3{
+    font-family: sans-serif;
+}
+span{
+    color: blue;
+}
+.full-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calc-container{
+    background-color: rgba(136, 206, 239, 0.644);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.332)
+}
+.sub-container-1{
+    padding: 10px;
+}
+.sub-container-2{
+    padding: 10px;
+}
+input[type="text"]{
+    width: 95%;
+    height: 50px;
+    border: 3px solid black;
+    background-color: white;
+    font-size: 25px;
+    text-align: right;
+    font-weight: bold;
+    overflow: hidden;
+}
+.buttons{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.num{
+    background-color: dodgerblue;
+}
+.op{
+    background-color: green;
+}
+.ac,.del{
+    background-color: rgb(195, 0, 0);
+}
+.btn:hover{
+    background-color: cyan;
+    cursor: pointer;
+    font-size: x-large;
+}
+.ac:hover,.del:hover{
+    background-color: red;
+}
+.op:hover{
+    background-color: rgb(43, 219, 43);
+}
