@@ -1,6 +1,6 @@
 const btns = document.querySelectorAll('.btn');
 const inputBox = document.getElementById('input-box');
-console.log(inputBox);
+//console.log(inputBox);
 btns.forEach(btn => {
     btn.addEventListener("click", (event)=>{
         if(btn.classList.contains('ac')){
